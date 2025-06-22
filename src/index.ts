@@ -19,6 +19,10 @@ app.use((err: Error, req: Request, res: Response, next: NextFunction) => {
   res.status(500).json({ status: 'ERROR', message: err.message || 'Something went wrong!' });
 });
 
+app.get('/', (req, res) => {
+  res.send('App is working');
+});
+
 app.listen(config.PORT, () => {
   console.log(`Server running on port ${config.PORT}`);
 });
