@@ -1,0 +1,28 @@
+{
+    "blinkit": {
+      "loginButton": "a[href='/login']",
+      "phoneNumberInput": "input[name='phone']",
+      "submitButton": "button[type='submit']",
+      "otpInput": "input[type='text'][maxlength='6']",
+      "cartPageUrl": "https://www.blinkit.com/cart"
+    },
+    "zepto": {
+      "loginButton": "body > div.font-norms > div > div > div > div > header > div > div:nth-child(5) > button",
+      "phoneNumberInput": "#zui-modal-undefined > div > div > div > div > div > div > div:nth-child(2) > div > div > div.login-container > div > div:nth-child(1) > form > div > div > input",
+      "submitButton": "#zui-modal-undefined > div > div > div > div > div > div > div:nth-child(2) > div > div > div.login-container > div > div:nth-child(1) > form > button > div",
+      "otpInput": "#zui-modal-undefined > div > div > div > div > div > div > div:nth-child(2) > div > div > div.verifyOTP-container > div > div > div.z-50.text-center > div",
+      "addToCartButton":"div.h-12:nth-child(2) > button:nth-child(1)",
+      "cartPageUrl": "https://www.zeptonow.com/?cart=true" , 
+      "locationSelector":"button.gap-x-2" ,
+      "locationInput": "#zui-modal-undefined > div > div > div > div > div > div > div:nth-child(2) > div > div.relative.mb-8.\\!overflow-hidden.p-4 > div:nth-child(1) > div > input" , 
+      "locationSelect":"#zui-modal-undefined > div > div > div > div > div > div > div:nth-child(2) > div > div.relative.mb-8.\\!overflow-hidden.p-4 > div.max-h-\\[28rem\\].overflow-auto.overscroll-y-contain.pb-24.sm\\:pb-72 > div:nth-child(1) > div" , 
+      "locationSubmit":"" 
+    },
+    "instamart": {
+      "loginButton": ".instamart-login-button",
+      "phoneNumberInput": ".instamart-phone-input",
+      "submitButton": ".instamart-submit-button",
+      "otpInput": ".instamart-otp-input",
+      "cartPageUrl": "https://www.swiggy.com/instamart/cart"
+    }
+  }
